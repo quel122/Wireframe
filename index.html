@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wireframe Prototype</title>
+</head>
+<body>
+  <main>
+    <!-- Intro View -->
+    <div class="introView">
+      <h1>Video Game Trivia!</h1>
+      <h2>Score 3/5 to win!</h2>
+      <button>Start</button>
+    </div>
+    <hr>
+    <!-- Feedback View -->
+    <div class="feedbackView">
+      <p>{Correct/Incorrect Message}</p>
+      <p>{if incorrect will display the correct answer. else will just display good job}</p>
+    </div>
+    <hr>
+    <!-- Question view -->
+    <div class="questionView">
+      <h1>Question {#} of 5</h1>
+      <div class="questionContainer">
+        <p>{Question}</p>
+        <form action="">
+          <input type="radio" name="selection" id="a" value="a">
+          <label for="">A. {Lorem ipsum dolor sit amet.}</label>
+          <br>
+          <input type="radio" name="selection" id="b" value="b">
+          <label for="">B. {Lorem ipsum dolor sit amet.}</label>
+          <br>
+          <input type="radio" name="selection" id="c" value="c">
+          <label for="">C. {Lorem ipsum dolor sit amet.}</label>
+          <br>
+          <input type="radio" name="selection" id="d" value="d">
+          <label for="">D. {Lorem ipsum dolor sit amet.}</label>
+          <br>
+          <input type="submit" name="submit" id="submit">
+        </form>
+      </div>
+    </div>
+    <hr>
+    <!-- Results View -->
+    <div class="resultsView">
+      <div class="resultsContainer">
+        <h2>END OF GAME</h2>
+        <h3>Score: </h3>
+        <ul>
+          <li>
+            <p>Correct {#}</p>
+          </li>
+          <li>
+            <p>Incorret {#}</p>
+          </li>
+        </ul>
+      </div>
+      <p>{Results Message}</p>
+      <button>NEW GAME</button>
+    </div>
+    <hr>
+  </main>
+</body>
+</html>
